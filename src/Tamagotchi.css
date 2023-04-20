@@ -1,0 +1,81 @@
+.Tamagotchi {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: antiquewhite;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid black;
+}
+
+
+h1 {
+  color: #F44336;
+  font-size: 48px;
+  margin-top: 0;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.stat label {
+  width: 120px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 20px;
+  color: #333;
+}
+
+.value {
+  height: 40px;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+
+.value.orange {
+  background-color: #FFB300;
+}
+
+.value.red {
+  background-color: #ff002b
+}
+
+.actions {
+  margin-top: 40px;
+}
+
+.actions button {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #F44336;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.actions button:hover {
+  background-color: #B71C1C;
+}
